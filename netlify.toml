@@ -2,6 +2,9 @@
   command = "npm run build"
   publish = "dist"
 
+[functions]
+  directory = "."
+
 [[redirects]]
   from = "/api/extract"
   to = "/.netlify/functions/extract"
